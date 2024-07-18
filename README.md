@@ -117,6 +117,31 @@
    sudo journalctl -u zgskv -fn 100 -o cat
    ```
 
+### Nếu nó hiện như này thì chúc mừng bạn đã cài thành công :D
+
+2024-07-18T08:34:05.348579Z  INFO stream::stream_manager::stream_replayer: tx 5682 is not in stream, skipped.
+2024-07-18T08:34:05.349661Z  INFO stream::stream_manager::stream_data_fetcher: checking tx with sequence number 5679..
+2024-07-18T08:34:05.350464Z  INFO stream::stream_manager::stream_replayer: checking tx with sequence number 5683..
+2024-07-18T08:34:05.350498Z  INFO stream::stream_manager::stream_replayer: tx 5683 is not in stream, skipped.
+2024-07-18T08:34:05.350519Z  INFO stream::stream_manager::stream_data_fetcher: tx 5679 is not in stream, skipped.
+2024-07-18T08:34:05.351608Z  INFO stream::stream_manager::stream_replayer: checking tx with sequence number 5684..
+2024-07-18T08:34:05.353291Z  INFO stream::stream_manager::stream_data_fetcher: checking tx with sequence number 5680..
+2024-07-18T08:34:05.353405Z  INFO stream::stream_manager::stream_replayer: tx 5684 is not in stream, skipped.
+2024-07-18T08:34:05.353761Z  INFO stream::stream_manager::stream_data_fetcher: tx 5680 is not in stream, skipped.
+2024-07-18T08:34:05.355070Z  INFO stream::stream_manager::stream_replayer: checking tx with sequence number 5685..
+2024-07-18T08:34:05.357026Z  INFO stream::stream_manager::stream_data_fetcher: checking tx with sequence number 5681..
+2024-07-18T08:34:05.357091Z  INFO stream::stream_manager::stream_data_fetcher: tx 5681 is not in stream, skipped.
+2024-07-18T08:34:05.357127Z  INFO stream::stream_manager::stream_replayer: tx 5685 is not in stream, skipped.
+2024-07-18T08:34:05.357965Z  INFO stream::stream_manager::stream_data_fetcher: checking tx with sequence number 5682..
+2024-07-18T08:34:05.358814Z  INFO stream::stream_manager::stream_replayer: checking tx with sequence number 5686..
+2024-07-18T08:34:05.358850Z  INFO stream::stream_manager::stream_replayer: tx 5686 is not in stream, skipped.
+2024-07-18T08:34:05.358874Z  INFO stream::stream_manager::stream_data_fetcher: tx 5682 is not in stream, skipped.
+2024-07-18T08:34:05.359629Z  INFO stream::stream_manager::stream_replayer: checking tx with sequence number 5687..
+2024-07-18T08:34:05.361141Z  INFO stream::stream_manager::stream_data_fetcher: checking tx with sequence number 5683..
+2024-07-18T08:34:05.361190Z  INFO stream::stream_manager::stream_data_fetcher: tx 5683 is not in stream, skipped.
+
+
+
 ## delete the node
    ```bash
    sudo systemctl stop zgskv
